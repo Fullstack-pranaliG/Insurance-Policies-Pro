@@ -1,0 +1,943 @@
+/*
+   #252b42
+   #23a6f0
+   rgb(7, 7, 87)
+   #b00cf4
+   #fbfcfd
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+
+.header{
+    background-image: url("./image/hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    color: #fbfcfd;
+    margin-bottom: -150px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fbfcfd;
+}
+
+.link-item{
+    margin-right: 30;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
+
+.right-side button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    background-color: #23a6f0;
+    color: #fbfcfb;
+    font-size: 13px;
+    font-weight: bold;
+    width: 180px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.right-side-icon{
+    font-size: 18px;
+}
+
+.header-main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 60%;
+    z-index: 999;
+}
+
+.header-main-section-head{
+    font-size: 54px;
+    text-align: center;
+}
+
+.header-main-section-desc{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-main-section-btn button:first-child{
+    background-color: #23a6f0;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    padding: 15px;
+    color: #fbfcfb;
+    width: 150px;
+}
+
+.header-main-section-btn button:nth-child(2){
+    border-radius: 25px;
+    font-size: 15px;
+    margin-left: 20px;
+    color: #fbfcfb;
+    padding: 15px;
+    border: 2px solid #fbfcfb;
+    background-color: transparent;
+    font-weight: bold;
+    width: 150px;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options-item{
+    background-color: #fbfcfb;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    height: 200px;
+
+}
+
+.options-item:nth-child(3){
+    background-color: #23a6f0;
+    color: #fbfcfb;
+
+}
+
+.options-icons{
+    color: #23a6f0;
+    font-size: 70px;
+}
+
+.option-item h1{
+    color: #252b42;
+}
+
+.option-item:nth-child(3) .options-icons{
+    color: #fbfcfb;
+}
+
+.option-item span{
+    font-size: 18px;
+}
+
+.benefits{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 200px 100px;
+}
+
+.benefit-item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.benefit-item h4{
+    color: #252b42;
+}
+
+.benefit-item span{
+    font-size: 20px;
+}
+
+.industry{
+    background-color: #fbfcfb;
+    height: 100vh;
+    padding: 30px;
+}
+
+.industry-header{
+    color: #252b42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industry-description{
+    color: #252b42;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    width: 60%;
+    margin: 100px 250px;
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+.client-item {
+    height: 320px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.client-item .client-image {
+    height: 150px;
+    width: 150px;
+    padding-top:20px;
+    margin: 0px auto;
+}
+
+.client-desc {
+    font-weight: 200;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ratings {
+    margin: 30px;
+}
+
+.sponsors {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sponsors img {
+    object-fit: contain;
+}
+
+.newsletter {
+    background-image: linear-gradient(to right, rgb(7, 7, 87),#b00cf4);
+    height: 300px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-header {
+    color: #fbfcfb;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.newsletter-input {
+    background-color: #fbfcfb;
+    width: 250px;
+    display: flex;
+    height: 60px;
+    width: 30%;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+
+.newsletter-input input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.newsletter-input button {
+    border: none;
+    background-color: #23a6f0;
+    color: #fbfcfb;
+    font-size: 20px;
+    padding-right: 9px;
+    margin: 5px;
+}
+
+.pricing {
+    background-color: #fbfcfb;
+}
+
+.pricing-header {
+    text-align: center;
+    width: 30%;
+    margin: 100px auto;
+}
+
+.pricing-header h3 {
+    color:#252b42;
+}
+
+.pricing-header p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.pricing-card {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-card-item {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid #23a6f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card-item:nth-child(2){
+    padding: 120px;
+    background-color: #252b42;
+    color: #fbfcfb;
+    border: none;
+}
+
+.pricing-card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.pricing-card-item h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #252b42;
+}
+
+.pricing-card-item span {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    margin: auto 50px;
+}
+
+.price-dollar {
+    display: flex;
+    align-items: center;
+    margin: auto 50px;
+}
+
+.price-dollar-header {
+    font-weight: 900;
+    font-size: 35px;
+    margin-right: 10px;
+    color: #23a6f0;
+}
+
+.price-dollar-price p:first-child {
+    font-weight: 900;
+    color: #23a6f0;
+}
+
+.price-dollar-price p:last-child {
+    color: #23a6f0;
+    opacity: 0.6;
+}
+
+.price-desc-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.price-desc-item p {
+    font-weight: 700;
+    text-align: right;
+    width: 100%;
+}
+
+.check-icon {
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    padding: 5px;
+    background-color: #3cB043;
+    color: #fbfcfb;
+    font-size: 16px;
+
+}
+
+.price-desc-item:nth-child(4) .check-icon {
+    background-color: #AAA;
+}
+
+.price-desc-item:nth-child(2) p{
+    color: #fbfcfb;
+}
+
+.btn-price {
+    width: 300px;
+    background-color: #23a6f0;
+    border-radius: 5px;
+    font-weight: 25px;
+    color: #fbfcfb;
+    border: none;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.reach {
+    background-color: #252b42;
+    margin-top: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin-bottom: -300px;
+}
+
+.reach-desc {
+    flex: 1;
+    margin: 100px 300px;
+    width: 150px;
+    color: #fbfcfb;
+    width: 20%;
+}
+
+.reach-image {
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+
+}
+
+.appointment {
+    height: 700px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfcfb;
+    margin: 0px 300px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.appointment-image {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.appointment-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.appointment-desc {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-desc h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #252b42;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.input-description {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    color: #AAA;
+}
+
+.appointment-btn {
+    margin: 50px;
+    padding: 15px;
+    border: none;
+    background-color: #23a6f0;
+    color: #fbfcfb;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.input-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #AAA;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fbfcfb;
+}
+
+.input-desc ion-icon {
+    font-size: 18px;
+}
+
+.input-description input {
+    outline: none;
+    border: none;
+    color: #AAA;
+    opacity: 0.6;
+}
+
+.consult {
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    columns: #333;
+}
+
+.consult-btn button {
+    padding: 10px;
+    border: none;
+    background-color: #23a6f0;
+    color: #fbfcfb;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.footer-upper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-item h3 {
+    color: #252b42;
+    text-align: center;
+}
+
+.footer-item li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #AAA;
+    font-weight: 500;
+}
+
+.footer-icon {
+    color: #23a6f0;
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.footer-item:nth-child(5) li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-lower {
+    background-color: #fbfcfb;
+}
+
+.footer-lower-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 150px;
+    padding-top: 20px;
+
+}
+
+.footer-lower p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #AAA;
+}
+
+/* MOBILE DESIGN AND TABLET DESIGN */
+
+@media screen and (max-width:1200px) {
+
+    .header {
+        margin-bottom: 100px;
+        position: relative;
+    }
+
+    .links {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+
+    .header-main-section-desc {
+        margin: 20px auto;
+    }
+
+    .client-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+    }
+
+    .pricing-card-item {
+        width: 250px;
+    }
+    
+}
+
+@media screen and (max-width:1500px) {
+
+    .header {
+        margin: 0px;
+    }
+
+    .benefit-item {
+       display: flex;
+       flex-wrap: wrap; 
+    }
+
+    .reach {
+        margin-bottom: 50px;
+    }
+
+    .reach-desc {
+        width: 50%;
+        flex: 1;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .reach-desc h1 {
+       width: 100%;
+       font-size: 20px; 
+    }
+
+    .reach-image {
+        width: 50%;
+        flex: 1;
+        margin: 20px;
+    }
+
+    .appointment {
+        width: 80%;
+        margin: 50px;
+    }
+
+    .newsletter-header {
+        width: 80%;
+    }
+
+    .newsletter-input {
+        width: 80%;
+        margin: 50px;
+        position: relative;
+    }
+
+    .newsletter-input button {
+        position: absolute;
+        top:0px;
+        right: 0px;
+        padding: 15px;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    .benefit-item span {
+        font-size: 15px;
+    }
+
+    .industry-description {
+        font-size: 15px;
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .industry {
+        height: auto;
+    }
+
+    .client {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+        height: 100vh;
+    }
+
+    .newsletter-header {
+        width: 80%;
+    }
+
+    .newsletter-input {
+        width: 80%;
+        margin: 50px;
+        position: relative;
+    }
+
+    .newsletter-input button {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 15px;
+    }
+
+    .pricing-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .price-desc-item {
+        margin: 20px;
+    }
+
+    .consult {
+        margin: 20px;
+    }
+
+    .consult desc {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .consult-desc h1 {
+        font-size: 25px;
+    }
+
+    .consult button {
+        height: 50%;
+    }
+
+    .appointment {
+       margin: 50px;
+       width: 100%; 
+    }
+
+    .footer-lower-item {
+        margin: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+
+    .appointment {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+
+    .sponsors img {
+        height: 100px;
+        width: 100px;
+        margin: 50px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    .right-side button {
+        width: 100px;
+        font-size: 9px;
+    }
+
+    .header-main-section {
+        width: 100%;
+    }
+
+    .header-main-section-head {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .header-main-section-desc {
+        font-size: 14px;
+        margin: 30px;
+        text-align: center;
+    }
+
+    .header-main-section-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-main-section-btn button {
+        margin: 10px;
+        border-radius: 0%;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .option-item {
+        width: 100%;
+    }
+
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 50px;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .sponsors img {
+        margin: 50px;
+        
+    }
+
+    .pricing-header {
+        margin: 40px;
+        width: 100%;
+    }
+
+    .pricing-header p {
+        width: 100%;
+    }
+
+    .pricing-card-item {
+        width: 70%;
+        margin: 20px;
+    }
+
+    .reach {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .reach-desc {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .reach-image {
+        width: 100%;
+    }
+
+    .consult {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .consult button {
+        width: 200%;
+        flex: 1;
+    }
+
+    .consult-desc {
+        width: 80%;
+        flex: 1;
+        margin-bottom: 30px;
+    }
+
+    .consult-desc h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .consult-desc button {
+        width: 70%;
+    }
+
+    .footer-upper {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-lower-item {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .head h2 {
+        font-size: 15px;
+    }
+
+    .header-main-section-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .appointment {
+        margin: 5px;
+    }
+    
+}
+    
